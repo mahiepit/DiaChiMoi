@@ -21,3 +21,11 @@ jobs:
       - run: npm test
       - name: CLI smoke test
         run: node bin/dia-chi-moi.mjs "Phường Bến Nghé, Quận 1, TP.HCM" --json
+
+  skilllint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mahiepit/SkillLint@v1
+        with:
+          strict: "true"

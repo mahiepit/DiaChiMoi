@@ -270,6 +270,13 @@ node scripts/eval-roundtrip.mjs        # tự kiểm tra trên toàn bộ phư�
 
 Cập nhật dữ liệu khi có nghị quyết mới: clone hai bộ dữ liệu gốc rồi chạy `node scripts/build-data.mjs <vietnamadminunits> <vietnamese-provinces-database>`, chạy lại test và ghi nguồn vào NOTICE.md.
 
+## 🔗 Dự án khác
+
+- **[ControlPhone](https://github.com/mahiepit/ControlPhone)**: điều khiển nhiều điện thoại Android cùng lúc, xem màn hình trực tiếp
+- **[ChuotVan](https://github.com/mahiepit/ChuotVan)**: biến văn AI, văn dịch máy thành tiếng Việt tự nhiên
+- **[SkillLint](https://github.com/mahiepit/SkillLint)**: kiểm tra SKILL.md có hợp lệ và chạy được trên mọi agent
+- **[PaperViet](https://github.com/mahiepit/PaperViet)**: đọc bài báo khoa học tiếng Anh bằng tiếng Việt
+
 ## ❤️ Ủng hộ dự án
 
 DiaChiMoi miễn phí và sẽ luôn miễn phí. Nếu nó giúp bạn tiết kiệm thời gian, một khoản ủng hộ nhỏ giúp dự án được duy trì. Cảm ơn bạn!

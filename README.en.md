@@ -274,6 +274,13 @@ node scripts/eval-roundtrip.mjs        # self-check on every old commune
 
 Updating the data after a new resolution: clone the two upstream datasets, run `node scripts/build-data.mjs <vietnamadminunits> <vietnamese-provinces-database>`, re-run the tests and record the source in NOTICE.md.
 
+## 🔗 More projects
+
+- **[ControlPhone](https://github.com/mahiepit/ControlPhone)**: control many Android phones at once from your PC
+- **[ChuotVan](https://github.com/mahiepit/ChuotVan)**: turn AI-sounding Vietnamese into natural Vietnamese
+- **[SkillLint](https://github.com/mahiepit/SkillLint)**: lint Agent Skills (SKILL.md) for every coding agent
+- **[PaperViet](https://github.com/mahiepit/PaperViet)**: read English research papers in Vietnamese
+
 ## ❤️ Support the project
 
 DiaChiMoi is free and always will be. If it saves you time, a small donation helps keep it maintained. Thank you!
