@@ -1,0 +1,19 @@
+{
+  "name": "dia-chi-moi",
+  "version": "1.0.0",
+  "description": "Chuyển địa chỉ Việt Nam cũ (63 tỉnh) sang địa chỉ mới sau sáp nhập 2025 (34 tỉnh, bỏ cấp huyện): agent skill + MCP server, dữ liệu offline.",
+  "author": {
+    "name": "Thảo Gia",
+    "url": "https://github.com/mahiepit"
+  },
+  "homepage": "https://github.com/mahiepit/DiaChiMoi",
+  "repository": "https://github.com/mahiepit/DiaChiMoi",
+  "license": "MIT",
+  "keywords": ["vietnam", "address", "dia-chi", "sap-nhap-2025", "administrative-units", "mcp"],
+  "mcpServers": {
+    "dia-chi-moi": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/bin/dia-chi-moi-mcp.mjs"]
+    }
+  }
+}

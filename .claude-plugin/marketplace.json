@@ -1,0 +1,19 @@
+{
+  "name": "dia-chi-moi",
+  "owner": {
+    "name": "Thảo Gia",
+    "url": "https://github.com/mahiepit"
+  },
+  "metadata": {
+    "description": "Địa chỉ mới sau sáp nhập 2025 cho Claude Code: chuyển địa chỉ cũ sang mới, tách địa chỉ, tra cứu phường/xã."
+  },
+  "plugins": [
+    {
+      "name": "dia-chi-moi",
+      "source": "./",
+      "description": "Chuyển địa chỉ Việt Nam cũ (63 tỉnh, tỉnh/huyện/xã) sang địa chỉ mới (34 tỉnh, tỉnh/xã): agent skill + MCP server, chạy offline.",
+      "version": "1.0.0",
+      "category": "productivity"
+    }
+  ]
+}
