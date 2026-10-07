@@ -1,6 +1,6 @@
 ---
 name: dia-chi-moi
-description: Chuyển địa chỉ Việt Nam cũ (63 tỉnh, tỉnh/huyện/xã, trước 01/07/2025) sang địa chỉ mới sau sáp nhập (34 tỉnh, chỉ còn tỉnh/xã), tách và chuẩn hoá địa chỉ tự do (có hoặc không dấu, viết tắt P., Q., TP., TX., H., X., HCM, HN), tra cứu phường/xã mới gồm những đơn vị cũ nào. Dùng khi người dùng nhờ đổi/cập nhật địa chỉ theo đơn vị hành chính mới, hỏi "phường X giờ thuộc phường nào", "địa chỉ mới của …", làm sạch cột địa chỉ trong CSV/Excel của CRM, kế toán, giao hàng, hoặc hỏi về sáp nhập tỉnh/xã 2025. Convert old Vietnamese addresses to the post-2025 administrative units.
+description: Chuyển địa chỉ Việt Nam cũ (63 tỉnh, tỉnh/huyện/xã) sang địa chỉ mới sau sáp nhập 2025 (34 tỉnh, tỉnh/xã); hiểu địa chỉ có/không dấu, viết tắt (P., Q., TP., HCM); tra phường/xã mới gồm đơn vị cũ nào. Dùng khi người dùng nhờ đổi địa chỉ theo đơn vị hành chính mới, hỏi "phường X giờ thuộc phường nào", làm sạch cột địa chỉ CSV/Excel, hoặc hỏi về sáp nhập 2025. Convert old Vietnamese addresses to the 2025 units.
 license: MIT
 metadata:
   version: "1.0.0"
